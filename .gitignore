@@ -1,6 +1,4 @@
-_site
+.ruby-version
 .sass-cache
+_site
 .jekyll-metadata
-*.sublime-project
-*.sublime-workspace
-.DS_Store
