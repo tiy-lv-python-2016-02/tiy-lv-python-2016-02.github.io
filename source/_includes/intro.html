@@ -1,10 +1,6 @@
 <section class="intro">
   <div class="container">
-    <div>
-      <img src="{{ '/assets/images/python-shield.png' | prepend: site.baseurl}}" width=200px>
-    </div>
-    <p class="lead">Welcome to the class page for The Iron Yard of Las Vegas
-    Python class for February 2016.  Here you will find all of the resources,
-    links and daily notes for the class.</p>
+    <p class="lead">Hi, I'm <strong class="author-name" itemprop="name">{{ site.author.name }}</strong>, a <em itemprop="jobTitle">{{ site.author.job }}</em>. <br>
+    {{ site.author.bio }} -- <a href="{{ '/about' | prepend: site.author.url }}" target="_blank">about me</a></p>
   </div>
 </section>

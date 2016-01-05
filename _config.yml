@@ -1,23 +1,24 @@
 
 # SEO settings
-title: Las Vegas Python - Feb 2016
-description: "Class site for the Las Vegas Python class in Feb of 2016"
-keywords: "python, django, "
-url: http://tiy-lv-python-2016-02.github.io
-baseurl: null
+title: Simplest
+description: "A free Jekyll theme for download"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+url: http://nandomoreira.me
+baseurl: "/simplest"
+# baseurl: null
 
 google_analytics: UA-52446115-1
 repo: http://github.com/nandomoreirame/simplest
-disqus_shortname: ""
+disqus_shortname: "fernandomoreira"
 
 # Build settings
 permalink   : /:year/:title/
 markdown    : kramdown
 highlighter : pygments
 
-paginate: 5
+paginate: 4
 paginate_path: "/page/:num/"
-comments: false
+comments: true
 
 source: source
 destination: _site
@@ -54,6 +55,6 @@ navbar:
   - slug : about
     title: About
   - slug : blog
-    title: blog
+    title: Blog
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
