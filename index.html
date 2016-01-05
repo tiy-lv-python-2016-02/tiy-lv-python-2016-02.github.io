@@ -11,12 +11,12 @@ layout: main
       </div>
       <div class="meta">
         <time class="published" datetime="{{ post.date | date: "%F" }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        {% for category in post.categories limit:1 %}
+        <!-- {% for category in post.categories limit:1 %}
           <a href="#">{{ category }}</a>
-        {% endfor %}
-        <!--
-        <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
-        -->
+        {% endfor %} -->
+
+        <a href="https://github.com/jeffnb/" class="author"><span class="name">Jeff</span></a>
+
       </div>
     </header>
     {% if post.image %}
