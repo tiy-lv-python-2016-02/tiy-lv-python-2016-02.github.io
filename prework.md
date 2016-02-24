@@ -52,7 +52,6 @@ We will be covering the fundamentals of Python in detail in our class, but havin
 
 1. Join the [Python track on Treehouse](http://teamtreehouse.com/tracks/learn-python).
 2. Complete the Python Basics, Python Collections, and Object-Oriented Python sections. Further sections are optional and may not apply fully to the class.
-3. Try some warmup exercises: [CodingBat](http://codingbat.com/python)
 
 ## Topic 3: The Command Line
 
@@ -101,3 +100,4 @@ The following exercises are not required! However, if you find yourself struggli
 - [Git Immersion](http://gitimmersion.com/) - This will be homework during the course, but you can begin early.
 - [Python for You and Me](http://pymbook.readthedocs.org/en/py3/)
 - [The Command Line Crash Course](http://cli.learncodethehardway.org/book/). This is a long undertaking and you could spend eight hours working on this. The author has a brash and possibly abrasive tone. The material is good, however.
+- Try some warmup exercises: [CodingBat](http://codingbat.com/python)
